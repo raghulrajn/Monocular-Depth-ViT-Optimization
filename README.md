@@ -24,3 +24,10 @@
 | **Mean Absolute Error (MAE)** | 0.5966 |
 | **Max Error** | 5.4102 |
 | **Relative Error** | 0.00065 |
+
+## Image Inference Performance with compiled model (Inductor + Reduce-Overhead)
+
+| Precision | Mean Latency (ms) | P95 Latency (ms) | FPS    |
+|------------|------------------|------------------|--------|
+| FP32       | 32.02            | 32.94            | 31.23  |
+| FP16       | 9.81             | 10.29            | 101.93 |
