@@ -5,7 +5,10 @@
 | <img src=Images/people.jpg width="384" height="384" /> | <img src="Images/depth_image_32.png" width="384" height="384" /> |<img src="Images/depth_image_16.png" width="384" height="384" /> |
 
 ## Performance & Accuracy Benchmarking
-
+### RPI5 CPU Inference (w/o XNN)
+| Original | FP32 | FP16 |
+| :---: | :---: | :---: |
+| <img src=Images/people.jpg width="384" height="384" /> | <img src="Images/depth_onnx_fp32.png" width="384" height="384" /> |<img src="Images/depth_onnx_small.png" width="384" height="384" /> |
 ### Performance Comparison
 
 | Metric | FP32 | FP16 | Delta |
