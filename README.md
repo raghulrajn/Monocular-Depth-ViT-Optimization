@@ -9,6 +9,7 @@
 | Original | FP32 | FP16 |
 | :---: | :---: | :---: |
 | <img src=Images/people.jpg width="384" height="384" /> | <img src="Images/depth_onnx_fp32.png" width="384" height="384" /> |<img src="Images/depth_onnx_small.png" width="384" height="384" /> |
+
 ### Performance Comparison
 
 | Metric | FP32 | FP16 | Delta |
@@ -34,3 +35,10 @@
 |------------|------------------|------------------|--------|
 | FP32       | 32.02            | 32.94            | 31.23  |
 | FP16       | 9.81             | 10.29            | 101.93 |
+
+### Profiled Trace comparison in eval & compiled
+#### Eval mode
+<img src=Images/model_eval_trace.png  /> 
+
+#### Compiled Model
+<img src="Images/pytorch-compiled-trace.png" /> 
